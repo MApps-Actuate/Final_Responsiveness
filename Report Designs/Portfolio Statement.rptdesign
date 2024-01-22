@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <report xmlns="http://www.eclipse.org/birt/2005/design" version="3.2.23" id="1">
-    <property name="createdBy">Eclipse BIRT Designer Version 4.11.0.v202101131551</property>
+    <property name="createdBy">Eclipse BIRT Designer Version 4.24.0.v202310211602</property>
     <property name="units">in</property>
     <property name="iconFile">/templates/blank_report.gif</property>
     <property name="layoutPreference">auto layout</property>
@@ -5568,6 +5568,12 @@
         </simple-master-page>
     </page-setup>
     <body>
+        <text id="1488">
+            <property name="contentType">html</property>
+            <text-property name="content"><![CDATA[<!-- Tech Mkt demo usage tracking stuff -->
+<span hidden><img src="https://prod-21.eastus.logic.azure.com:443/workflows/544d9b1832a44f68af07047e6658458f/triggers/manual/paths/invoke?api-version=2016-10-01&amp;sp=%2Ftriggers%2Fmanual%2Frun&amp;sv=1.0&amp;sig=TJC41IERJcA3I7CnrSvvByHsXzffzbfDONsrpR69B9k&amp;cloud=analytics&amp;product=magellan&amp;version=234&amp;democategory=mbir&amp;demoscenario=Responsiveness" width="1" height="1"></span>
+<!-- end demo usage tracking stuff -->]]></text-property>
+        </text>
         <grid name="GridSkeleton" id="968">
             <property name="backgroundColor">#414979</property>
             <property name="fontSize">1vw</property>
